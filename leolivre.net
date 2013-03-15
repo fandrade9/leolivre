@@ -1,0 +1,523 @@
+# EESchema Netlist Version 1.1 created  Sex 15 Mar 2013 14:43:57 BRT
+(
+ ( /51435774 $noname  P2 ICSP {Lib=CONN_4X2}
+  (    1 /MISO )
+  (    2 +5V )
+  (    3 /SCLK )
+  (    4 /MOSI )
+  (    5 /RESET )
+  (    6 GND )
+  (    7 /SS )
+  (    8 ? )
+ )
+ ( /51428018 $noname  R12 1k {Lib=R}
+  (    1 GND )
+  (    2 N-000061 )
+ )
+ ( /51428012 $noname  D2 green {Lib=LED}
+  (    1 +5V )
+  (    2 N-000061 )
+ )
+ ( /51427B45 $noname  P3 PUERTOS_IO {Lib=CONN_6}
+  (    1 N-000060 )
+  (    2 N-000037 )
+  (    3 N-000058 )
+  (    4 N-000030 )
+  (    5 N-000059 )
+  (    6 N-000044 )
+ )
+ ( /51420A73 $noname  L1 MH2029-300Y {Lib=INDUCTOR}
+  (    1 +5V )
+  (    2 /AVCC )
+ )
+ ( /51420A5B $noname  C7 1uF {Lib=C}
+  (    1 /AVCC )
+  (    2 GND )
+ )
+ ( /514203FA $noname  C5 0.1uF {Lib=C}
+  (    1 /RESET )
+  (    2 GND )
+ )
+ ( /51400887 $noname  R7 1k {Lib=R}
+  (    1 /DATA )
+  (    2 +5V )
+ )
+ ( /514006C3 $noname  K1 AX-12 {Lib=CONN_3}
+  (    1 GND )
+  (    2 ? )
+  (    3 /DATA )
+ )
+ ( /51400695 $noname  R10 100 {Lib=R}
+  (    1 N-000023 )
+  (    2 /DATA )
+ )
+ ( /51400443 $noname  R1 10k {Lib=R}
+  (    1 /A6 )
+  (    2 GND )
+ )
+ ( /5140042C $noname  R2 10k {Lib=R}
+  (    1 /A4 )
+  (    2 GND )
+ )
+ ( /5140040B $noname  R8 10k {Lib=R}
+  (    1 /A2 )
+  (    2 GND )
+ )
+ ( /51400401 $noname  R9 10k {Lib=R}
+  (    1 /A0 )
+  (    2 GND )
+ )
+ ( /513FFD41 $noname  J5 Puerto_1 {Lib=RJ45}
+  (    1 ? )
+  (    2 ? )
+  (    3 +5V )
+  (    4 /A0 )
+  (    5 GND )
+  (    6 /A1 )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+ )
+ ( /513FFD3E $noname  J4 Puerto_2 {Lib=RJ45}
+  (    1 ? )
+  (    2 ? )
+  (    3 +5V )
+  (    4 /A2 )
+  (    5 GND )
+  (    6 /A3 )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+ )
+ ( /513FFD3B $noname  J3 Puerto_3 {Lib=RJ45}
+  (    1 ? )
+  (    2 ? )
+  (    3 +5V )
+  (    4 /A4 )
+  (    5 GND )
+  (    6 /A5 )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+ )
+ ( /513FFD2E $noname  J1 Puerto_4 {Lib=RJ45}
+  (    1 ? )
+  (    2 ? )
+  (    3 +5V )
+  (    4 /A6 )
+  (    5 GND )
+  (    6 /A7 )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+ )
+ ( /513FFBDA $noname  C8 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 N-000043 )
+ )
+ ( /513FF93F $noname  R11 10k {Lib=R}
+  (    1 GND )
+  (    2 N-000042 )
+ )
+ ( /513FF71A $noname  R4 1M {Lib=R}
+  (    1 /CLK1 )
+  (    2 /CLK2 )
+ )
+ ( /513F9AB5 $noname  C4 22pF {Lib=C}
+  (    1 /CLK2 )
+  (    2 GND )
+ )
+ ( /513F9AAE $noname  C3 22pF {Lib=C}
+  (    1 /CLK1 )
+  (    2 GND )
+ )
+ ( /513F9AA4 $noname  X1 16Mhz {Lib=CRYSTAL}
+  (    1 /CLK1 )
+  (    2 /CLK2 )
+ )
+ ( /513F9926 $noname  R3 10k {Lib=R}
+  (    1 +5V )
+  (    2 /RESET )
+ )
+ ( /513F98DF $noname  SW1 reset {Lib=SW_PUSH}
+  (    1 GND )
+  (    2 /RESET )
+ )
+ ( /513F7186 $noname  C6 1uF {Lib=C}
+  (    1 GND )
+  (    2 N-000054 )
+ )
+ ( /513F65D7 $noname  F1 500mA {Lib=FUSE}
+  (    1 N-000041 )
+  (    2 N-000049 )
+ )
+ ( /513F656D $noname  D1 DIODE {Lib=DIODE}
+  (    1 N-000041 )
+  (    2 +5V )
+ )
+ ( /513F5F61 $noname  R6 22 {Lib=R}
+  (    1 /RD- )
+  (    2 N-000051 )
+ )
+ ( /513F5F56 $noname  R5 22 {Lib=R}
+  (    1 /RD+ )
+  (    2 N-000050 )
+ )
+ ( /513F4E8C $noname  C2 10uF {Lib=CP1}
+  (    1 N-000041 )
+  (    2 GND )
+ )
+ ( /513F4E88 $noname  C1 0.1uF {Lib=C}
+  (    1 N-000041 )
+  (    2 GND )
+ )
+ ( /5139F499 $noname  J2 USB {Lib=USB}
+  (    1 N-000049 )
+  (    2 N-000051 )
+  (    3 N-000050 )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+ )
+ ( /5139F48C $noname  U1 ATMEGA32U4 {Lib=ATMEGA32U4}
+  (    1 ? )
+  (    2 +5V )
+  (    3 /RD+ )
+  (    4 /RD- )
+  (    5 GND )
+  (    6 N-000054 )
+  (    7 +5V )
+  (    8 /SS )
+  (    9 /SCLK )
+  (   10 /MOSI )
+  (   11 /MISO )
+  (   12 ? )
+  (   13 /RESET )
+  (   14 +5V )
+  (   15 GND )
+  (   16 /CLK1 )
+  (   17 /CLK2 )
+  (   18 ? )
+  (   19 ? )
+  (   20 N-000023 )
+  (   21 N-000023 )
+  (   22 ? )
+  (   23 GND )
+  (   24 /AVCC )
+  (   25 /A6 )
+  (   26 /A7 )
+  (   27 N-000060 )
+  (   28 N-000037 )
+  (   29 N-000058 )
+  (   30 N-000030 )
+  (   31 N-000059 )
+  (   32 N-000044 )
+  (   33 N-000042 )
+  (   34 +5V )
+  (   35 GND )
+  (   36 /A0 )
+  (   37 /A1 )
+  (   38 /A2 )
+  (   39 /A3 )
+  (   40 /A4 )
+  (   41 /A5 )
+  (   42 N-000043 )
+  (   43 GND )
+  (   44 /AVCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 14 "GND" "GND"
+ C2 2
+ U1 35
+ U1 15
+ C1 2
+ J2 4
+ J2 5
+ J2 6
+ U1 5
+ C7 2
+ C3 2
+ C4 2
+ C6 1
+ U1 43
+ U1 23
+ C5 2
+ SW1 1
+ J3 5
+ C8 1
+ J1 5
+ K1 1
+ R9 2
+ R12 1
+ R8 2
+ R2 2
+ R1 2
+ J5 5
+ J4 5
+ P2 6
+ R11 1
+Net 22 "/A7" "A7"
+ U1 26
+ J1 6
+Net 23 "" ""
+ U1 21
+ U1 20
+ R10 1
+Net 25 "/DATA" "DATA"
+ K1 3
+ R7 1
+ R10 2
+Net 26 "+5V" "+5V"
+ P2 2
+ L1 1
+ D2 1
+ U1 2
+ R3 1
+ U1 14
+ U1 34
+ J1 3
+ J5 3
+ D1 2
+ R7 2
+ J3 3
+ J4 3
+ U1 7
+Net 28 "/A5" "A5"
+ J3 6
+ U1 41
+Net 29 "/A4" "A4"
+ J3 4
+ R2 1
+ U1 40
+Net 30 "" ""
+ P3 4
+ U1 30
+Net 33 "/A6" "A6"
+ R1 1
+ J1 4
+ U1 25
+Net 34 "/A3" "A3"
+ J4 6
+ U1 39
+Net 36 "/A2" "A2"
+ U1 38
+ J4 4
+ R8 1
+Net 37 "" ""
+ P3 2
+ U1 28
+Net 39 "/A1" "A1"
+ U1 37
+ J5 6
+Net 40 "/A0" "A0"
+ U1 36
+ J5 4
+ R9 1
+Net 41 "" ""
+ C1 1
+ D1 1
+ C2 1
+ F1 1
+Net 42 "" ""
+ R11 2
+ U1 33
+Net 43 "" ""
+ C8 2
+ U1 42
+Net 44 "" ""
+ U1 32
+ P3 6
+Net 46 "/CLK2" "CLK2"
+ U1 17
+ R4 2
+ C4 1
+ X1 2
+Net 47 "/RESET" "RESET"
+ U1 13
+ C5 1
+ R3 2
+ P2 5
+ SW1 2
+Net 48 "/CLK1" "CLK1"
+ X1 1
+ R4 1
+ U1 16
+ C3 1
+Net 49 "" ""
+ F1 2
+ J2 1
+Net 50 "" ""
+ J2 3
+ R5 2
+Net 51 "" ""
+ R6 2
+ J2 2
+Net 52 "/RD+" "RD+"
+ U1 3
+ R5 1
+Net 53 "/RD-" "RD-"
+ R6 1
+ U1 4
+Net 54 "" ""
+ U1 6
+ C6 2
+Net 55 "/MISO" "MISO"
+ P2 1
+ U1 11
+Net 56 "/SS" "SS"
+ U1 8
+ P2 7
+Net 57 "/AVCC" "AVCC"
+ U1 24
+ U1 44
+ C7 1
+ L1 2
+Net 58 "" ""
+ P3 3
+ U1 29
+Net 59 "" ""
+ P3 5
+ U1 31
+Net 60 "" ""
+ P3 1
+ U1 27
+Net 61 "" ""
+ R12 2
+ D2 2
+Net 63 "/MOSI" "MOSI"
+ U1 10
+ P2 4
+Net 64 "/SCLK" "SCLK"
+ U1 9
+ P2 3
+}
+#End
