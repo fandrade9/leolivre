@@ -1,4 +1,4 @@
-update=Sex 08 Mar 2013 11:24:03 BRT
+update=Sex 15 Mar 2013 13:55:52 BRT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -109,7 +109,7 @@ offY_E=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
-LabSize=60
+LabSize=500
 [eeschema/libraries]
 LibName1=power
 LibName2=device
