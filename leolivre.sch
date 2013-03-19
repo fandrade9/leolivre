@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sex 15 Mar 2013 14:44:02 BRT
+EESchema Schematic File Version 2  date Sáb 16 Mar 2013 04:15:28 BRT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,15 +37,20 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "leolivre"
-Date "15 mar 2013"
-Rev "1.0"
+Date "16 mar 2013"
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 5000 1350
+Wire Wire Line
+	8900 3600 8350 3600
+Wire Wire Line
+	8900 3400 8350 3400
+Wire Wire Line
+	8900 3200 8350 3200
 Wire Wire Line
 	4200 1350 3900 1350
 Wire Wire Line
@@ -156,12 +161,6 @@ Wire Wire Line
 Wire Wire Line
 	8350 4700 8850 4700
 Wire Wire Line
-	8350 3100 8750 3100
-Wire Wire Line
-	8350 3300 8750 3300
-Wire Wire Line
-	8350 3500 8750 3500
-Wire Wire Line
 	8350 3700 8650 3700
 Wire Wire Line
 	9100 4000 9400 4000
@@ -263,12 +262,6 @@ Wire Wire Line
 	8350 4000 8600 4000
 Wire Wire Line
 	9250 3000 9650 3000
-Wire Wire Line
-	8350 3600 8750 3600
-Wire Wire Line
-	8350 3400 8750 3400
-Wire Wire Line
-	8350 3200 8750 3200
 Wire Wire Line
 	8350 4800 8850 4800
 Wire Wire Line
@@ -384,6 +377,26 @@ Wire Notes Line
 	3800 1450 5450 1450
 Wire Notes Line
 	5450 1450 5450 850 
+Wire Wire Line
+	8900 3100 8350 3100
+Wire Wire Line
+	8900 3300 8350 3300
+Wire Wire Line
+	8900 3500 8350 3500
+$Comp
+L CONN_6 P4
+U 1 1 5143D86F
+P 9250 3350
+F 0 "P4" V 9200 3350 60  0000 C CNN
+F 1 "PUERTOS ANG" V 9300 3350 60  0000 C CNN
+	1    9250 3350
+	1    0    0    -1  
+$EndComp
+Text Label 5350 6150 0    60   ~ 0
+A0
+Text Label 5500 6300 0    60   ~ 0
+A1
+NoConn ~ 5000 1350
 $Comp
 L CONN_4X2 P2
 U 1 1 51435774
@@ -686,22 +699,18 @@ F 1 "10k" V 4800 6050 50  0000 C CNN
 	1    4800 6050
 	1    0    0    -1  
 $EndComp
-Text Label 850  6350 0    60   ~ 0
-A7
 Text Label 1100 6200 0    60   ~ 0
+A7
+Text Label 850  6350 0    60   ~ 0
 A6
-Text Label 2150 6050 0    60   ~ 0
+Text Label 2600 6200 0    60   ~ 0
 A5
-Text Label 2350 6200 0    60   ~ 0
+Text Label 2150 6050 0    60   ~ 0
 A4
-Text Label 4100 6050 0    60   ~ 0
+Text Label 4250 6200 0    60   ~ 0
 A3
-Text Label 4300 6200 0    60   ~ 0
+Text Label 3950 6050 0    60   ~ 0
 A2
-Text Label 5350 6150 0    60   ~ 0
-A1
-Text Label 5450 6300 0    60   ~ 0
-A0
 $Comp
 L GND #PWR015
 U 1 1 51400172
